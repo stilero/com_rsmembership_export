@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.5" type="component" method="upgrade">
+	<name>RSMembership Export</name>
+	<author>Daniel Eliasson (joomla@stilero.com)</author>
+	<creationDate>2013-feb-24</creationDate>
+	<copyright>Copyright (c) 2013-feb-24 Stilero Webdesign (www.stilero.com). All rights reserved.</copyright>
+	<authorEmail>joomla@stilero.com</authorEmail>
+	<authorUrl>www.stilero.com</authorUrl>
+	<version>1.0</version>
+	<license>GPLv2</license>
+	<description>Component for exporting members from RSMembership to Excel</description>
+        <!--
+	<languages folder="language">
+            <language tag="en-GB">site/language/en-GB.com_rsmembershipexport.ini</language>
+            <language tag="sv-SE">site/language/sv-SE.com_rsmembershipexport.ini</language>
+            <language tag="en-GB">site/language/en-GB.com_rsmembershipexport.sys.ini</language>
+            <language tag="sv-SE">site/language/sv-SE.com_rsmembershipexport.sys.ini</language>
+        </languages>
+        -->
+	<administration>
+            <!-- Administration Menu Section -->
+           <menu>Members Export</menu>
+            <files folder="admin">
+                    <!-- Admin Main File Copy Section -->
+                    <filename>index.html</filename>
+                    <filename>admin.rsmembershipexport.php</filename>
+                    <filename>controller.php</filename>
+                    <folder>views</folder>
+                    <folder>models</folder>
+                    <folder>controllers</folder>
+            </files>
+            <languages folder="language">
+	       <language tag="en-GB">admin/language/en-GB.com_rsmembershipexport.ini</language>
+	       <language tag="sv-SE">admin/language/sv-SE.com_rsmembershipexport.ini</language>
+               <language tag="en-GB">admin/language/en-GB.com_rsmembershipexport.ini</language>
+	       <language tag="sv-SE">admin/language/sv-SE.com_rsmembershipexport.ini</language>
+	    </languages>
+	</administration>
+</extension>
