@@ -1,11 +1,11 @@
 <?php
 /**
- * admin.rsmembershipexport
+ * DAshboard Layout
  *
  * @version  1.0
  * @author Daniel Eliasson (joomla@stilero.com)
  * @copyright  (C) 2013-feb-24 Stilero Webdesign (www.stilero.com)
- * @category Components
+ * @category layout
  * @license	GPLv2
  */
 

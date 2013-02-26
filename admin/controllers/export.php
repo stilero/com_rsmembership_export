@@ -1,11 +1,11 @@
 <?php
 /**
- * Description of ShopMigrator
+ * Export controller
  *
  * @version  1.0
  * @author Daniel Eliasson Stilero Webdesign http://www.stilero.com
  * @copyright  (C) 2012-okt-17 Stilero Webdesign, Stilero AB
- * @category Components
+ * @category Controllers
  * @license	GPLv2
  */
 

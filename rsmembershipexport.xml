@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="1.5" type="component" method="upgrade">
-	<name>RSMembership Export</name>
+	<name>COM_RSMEMBERSHIPEXPORT_NAME</name>
 	<author>Daniel Eliasson (joomla@stilero.com)</author>
 	<creationDate>2013-feb-24</creationDate>
 	<copyright>Copyright (c) 2013-feb-24 Stilero Webdesign (www.stilero.com). All rights reserved.</copyright>
@@ -8,7 +8,7 @@
 	<authorUrl>www.stilero.com</authorUrl>
 	<version>1.0</version>
 	<license>GPLv2</license>
-	<description>Component for exporting members from RSMembership to Excel</description>
+	<description>COM_RSMEMBERSHIPEXPORT_DESC</description>
         <!--
 	<languages folder="language">
             <language tag="en-GB">site/language/en-GB.com_rsmembershipexport.ini</language>

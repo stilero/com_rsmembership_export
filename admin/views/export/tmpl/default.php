@@ -1,11 +1,11 @@
 <?php
 /**
- * Description of ShopMigrator
+ * Export View Layout
  *
  * @version  1.0
  * @author Daniel Eliasson Stilero Webdesign http://www.stilero.com
- * @copyright  (C) 2012-okt-17 Stilero Webdesign, Stilero AB
- * @category Components
+ * @copyright  (C) 2013-feb-17 Stilero Webdesign, Stilero AB
+ * @category Layouts
  * @license	GPLv2
  * 
  */
@@ -14,7 +14,7 @@
 defined('_JEXEC') or die('Restricted access');
 $keys = array_keys((array)$this->members[0]);
 if(empty($this->members)){
-    print '<p>No members found!</p>';
+    print '<p>'.JText::_('COM_RSMEMBERSHIPEXPORT_NO_MEMBERS_FOUND').'</p>';
     return;
 }
 header('Pragma: public');

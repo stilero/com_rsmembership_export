@@ -1,11 +1,11 @@
 <?php
 /**
- * Description of ShopMigrator
+ * Dashboard View
  *
  * @version  1.0
  * @author Daniel Eliasson Stilero Webdesign http://www.stilero.com
- * @copyright  (C) 2012-okt-20 Stilero Webdesign, Stilero AB
- * @category Components
+ * @copyright  (C) 2013-feb-20 Stilero Webdesign, Stilero AB
+ * @category Views
  * @license	GPLv2
  * 
  */
@@ -16,9 +16,6 @@ defined('_JEXEC') or die('Restricted access');
 // import Joomla view library
 jimport('joomla.application.component.view');
  
-/**
- * HTML View class for the HelloWorld Component
- */
 class RsmembershipexportViewDashboard extends JView
 {
 	// Overwriting JView display method
