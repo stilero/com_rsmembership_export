@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="1.5" type="component" method="upgrade">
-	<name>COM_RSMEMBERSHIPEXPORT_NAME</name>
+	<name>RSMembership Export</name>
 	<author>Daniel Eliasson (joomla@stilero.com)</author>
 	<creationDate>2013-feb-24</creationDate>
 	<copyright>Copyright (c) 2013-feb-24 Stilero Webdesign (www.stilero.com). All rights reserved.</copyright>
