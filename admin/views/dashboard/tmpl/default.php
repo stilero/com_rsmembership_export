@@ -12,29 +12,30 @@
 // No direct access to this file
 defined('_JEXEC') or die('Restricted access');
 define('RSMEMBEXP_URL', 'index.php?option=com_rsmembershipexport&view=export&format=raw');
+define('RSMEMBEXP_ICON', JURI::base().'templates/bluestork/images/header/icon-48-stats.png');
 ?>
     <div class="cpanel">
         <div class="icon-wrapper">
             <div class="icon">
                 <a class="modal" href="<?php echo RSMEMBEXP_URL; ?>&show=all" rel="{handler: 'iframe', size: {x: 800, y: 550}, onClose: function() {}}">
-                    <img src="/joomla25/administrator/templates/bluestork/images/header/icon-48-stats.png" alt=""  />
-                    <span>Download All Members</span>
+                    <img src="<?php echo RSMEMBEXP_ICON;?>" alt=""  />
+                    <span><?php echo JText::_('COM_RSMEMBERSHIPEXPORT_ALL_MEMBERS'); ?></span>
                 </a>
             </div>
         </div>
         <div class="icon-wrapper">
             <div class="icon">
                 <a class="modal" href="<?php echo RSMEMBEXP_URL; ?>&show=active" rel="{handler: 'iframe', size: {x: 800, y: 550}, onClose: function() {}}">
-                    <img src="/joomla25/administrator/templates/bluestork/images/header/icon-48-stats.png" alt=""  />
-                    <span>Download Active Members</span>
+                    <img src="<?php echo RSMEMBEXP_ICON;?>" alt=""  />
+                    <span><?php echo JText::_('COM_RSMEMBERSHIPEXPORT_ACTIVE_MEMBERS'); ?></span>
                 </a>
             </div>
         </div>
         <div class="icon-wrapper">
             <div class="icon">
                 <a class="modal" href="<?php echo RSMEMBEXP_URL; ?>&show=expired" rel="{handler: 'iframe', size: {x: 800, y: 550}, onClose: function() {}}">
-                    <img src="/joomla25/administrator/templates/bluestork/images/header/icon-48-stats.png" alt=""  />
-                    <span>Download Inactive Members</span>
+                    <img src="<?php echo RSMEMBEXP_ICON;?>" alt=""  />
+                    <span><?php echo JText::_('COM_RSMEMBERSHIPEXPORT_INACTIVE_MEMBERS'); ?></span>
                 </a>
             </div>
         </div>
