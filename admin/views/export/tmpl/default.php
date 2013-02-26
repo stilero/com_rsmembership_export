@@ -13,6 +13,10 @@
 // No direct access to this file
 defined('_JEXEC') or die('Restricted access');
 $keys = array_keys((array)$this->members[0]);
+if(empty($this->members)){
+    print '<p>No members found!</p>';
+    return;
+}
 header('Pragma: public');
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");                  // Date in the past   
 header('Last-Modified: '.gmdate('D, d M Y H:i:s') . ' GMT');
@@ -24,7 +28,6 @@ header('Content-Transfer-Encoding: none');
 header('Content-Type: application/vnd.ms-excel;');  
 header("Content-type: application/x-msexcel");
 header('Content-Disposition: attachment; filename="ExcelSpreadsheet.xls"');
-if(empty($this->members)) return;
 ?>
 <table>
     <tr>
